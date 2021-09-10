@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psyborg | HomePage</title>
+    <link rel="shortcut icon" type="image/jpg" href="/Images/Psyborg-logo.jpg">
+    <link rel="stylesheet" href="All_css/home_style.css">
+    <link rel="stylesheet" href="All_css/loading.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+</head>
+<script src="jquery"></script>
+
+<body>
+    <nav class="navbar-enable-in-mobile">
+        <!--from here-->
+        <div class="nav-mobile-logo">
+            <img src="Images/Psyborg-logo.jpg" alt="Psyborg-logo" class="nav-logo-img">
+        </div>
+        <div class="ham-container">
+            <div class="hamburger">
+                <div class="ham-content1 ham-content"></div>
+                <div class="ham-content2 ham-content"></div>
+                <div class="ham-content3 ham-content"></div>
+            </div>
+        </div>
+    </nav>
+    <div class="nav-page" style="opacity: 0;">
+        <div class="nav-menu" style="opacity: 0;">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+                <li><a href="#home" class="nav-button-link">Contact a counsellor</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <nav class="nav-disable-in-mobile">
+        <div class="nav-logo">
+            <a href="#home"><img src="Images/Psyborg-logo.jpg" alt="Psyborg-logo" class="nav-logo-img"></a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="Home.html" title="Hey">Home</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="nav-btn">
+            <a href="#home" class="nav-button-link">Contact a counsellor</a>
+        </div>
+    </nav>
+
+    <section id="home-first">
+        <div id="home-outer-div">
+            <div id="intro" data-aos="zoom-in" data-aos-duration="1200">Psyborg</div>
+            <div id="sub-intro" data-aos="fade-up" data-aos-duration="3000"> A step towards better Mental Health</div>
+        </div>
+    </section>
+    <section id="home-second">
+        <div class="aligning">
+            <h1 class="home-h1" data-aos="fade-right" data-aos-duration="2000">Why are we concerned about this?</h1>
+            <div id="home-second-subhead">In today's busy lifestyle, people don't get proper time for recreation, nor do
+                they connect with their friends and loved ones. Such conditions of isolation and mental pressure, give
+                rise to various psychological conditions including stress and anxiety. Psychological ailments are often
+                not given much attention compared to others, and they end with the quick act of 'suicide'. </div>
+            <div id="home-second-mainarea">
+                <div class="home-second-content" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <img src="Images/home-dep-1.gif" alt="depression-gif" class="home-second-gifs">
+                    <span class="count-span">275 Million + </span>
+                    <p class="subhead-count">The number of people suffering from anxiety disorders worldwide</p><br>
+                    <p class="details-cases">
+                        <!-- According to WHO, almost 85% cases of these occur due to depression and similar psychological issues. If steps are not taken to improve the mental health conditions of the youth, the numbers can become even worse. -->
+                    </p>
+                </div>
+                <div class="home-second-content" data-aos="flip-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <img src="Images/home-dep-3.jpg" alt="depression-gif" class="home-second-gifs" id="dep-gif-3">
+                    <span class="count-span">7.1% </span>
+                    <p class="subhead-count">The percentage of adult population of America, who had at least one major
+                        depressive episode</p><br>
+                    <p class="details-cases">
+                        <!-- According to WHO, almost 85% cases of these occur due to depression and similar psychological issues. If steps are not taken to improve the mental health conditions of the youth, the numbers can become even worse.
+                    </p> -->
+                </div>
+                <div class="home-second-content" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <img src="Images/home-dep-2.gif" alt="depression-gif" class="home-second-gifs">
+                    <span class="count-span">80000 + </span>
+                    <p class="subhead-count">The number of suicides happening every year around the globe</p><br>
+                    <p class="details-cases">
+                        <!-- According to WHO, almost 85% cases of these occur due to depression and similar psychological issues. If steps are not taken to improve the mental health conditions of the youth, the numbers can become even worse. -->
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="home-fourth">
+        <div class="contact-form" id="contactus" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="300">
+            <div>Ask a Query...</div>
+            <form action="lol.php">
+                <input type="text" placeholder="Your Name" id="name" class="common-input-contact">
+                <input type="email" placeholder="Your Email" id="email" class="common-input-contact">
+                <input type="text" placeholder="Your Phone Number" id="phone" class="common-input-contact">
+                <input type="text" placeholder="Your Query" id="query" class="common-input-contact">
+            </form>
+            <button class="contact-submit-button">Submit</button>
+        </div>
+        <div class="final-info" data-aos="fade-down" data-aos-easing="ease-in-sine">
+            <div class="final-info-inside-div">
+                <div class="site-sponsor">
+                    <p>Site sponsored by ISTEBITS<br></p>
+                    <button class="contact-submit-button" id="istebits-button"><a href="https://www.istebits.com/"
+                            target="_blank">Visit ISTEBITS</a></button>
+                </div>
+                <div class="social-handle">
+                    <p>Connect with our Social-media handles<br></p>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="Images/facebook-pic.png" alt="fb"
+                            class="social-icons"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="Images/instagram-pic.png" alt="insta"
+                            class="social-icons"></a>
+                    <a href="https://www.pinterest.com/" target="_blank"><img src="Images/pinterest-pic.png" alt="pin"
+                            class="social-icons"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="Images/twitter-pic.png" alt="twitter"
+                            class="social-icons"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="Images/youtube-pic.png" alt="utube"
+                            class="social-icons"></a>
+                </div>
+                <div class="partners">
+                    <p>Supported by<br></p>
+                    <a href="http://www.jaduniv.edu.in/" target="_blank"><img src="Images/logo-ju.png" alt="ju"
+                            class="support-icons"></a>
+                    <a href="https://code.visualstudio.com/" target="_blank"><img src="Images/logo-vsc.png" alt="vsc"
+                            class="support-icons"></a>
+                    <a href="http://www.google.com/intl/en_in/chrome/" target="_blank"><img src="Images/logo-chrome.png"
+                            alt="chrome" class="support-icons"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="loader-wrapper">
+        <div class="loading-page">
+            <div class="loading-page-contents"></div>
+            <div class="loading-page-contents"></div>
+            <div class="loading-page-contents"></div>
+          </div>
+    </div>
+    
+</body>
+
+<script src="Js/navbar.js"></script>
+<script src="Js/loading.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init(); </script>
+
+</html>
