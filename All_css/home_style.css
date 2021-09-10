@@ -258,6 +258,18 @@ height: 7rem;
     grid-area: image-part;
 }
 
+@media only screen and (max-width: 550px) {
+    #home-first::before {
+        background: url("../Images/home-background-2.jpg") no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        z-index: -1;
+        opacity: 0.9;
+        height: 550px;
+        width: 100%;
+    }
+}
+
 /* HOME-SECOND */
 
 #home-second{
@@ -291,7 +303,8 @@ height: 7rem;
 #home-second-subhead{
     font-size: 21px;
     padding-top: 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
 }
 
 .home-h1{
