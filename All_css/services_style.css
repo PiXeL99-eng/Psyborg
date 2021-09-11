@@ -3,16 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 
+
 }
 
 body,html{
     width: 100vw;
     overflow-x: hidden;
-    overflow-y:scroll ;
     
+    
+    background-color: #8080800d;
     scroll-behavior: smooth;
 }
 
+
+
+/* @media screen  and (max-width :610px){
+    body{
+    
+        overflow-y:scroll ;
+    }
+} */
+
+.full{
+    overflow-y: scroll;
+}
 
 .nav-disable-in-mobile{
     display: grid;   
@@ -267,7 +281,7 @@ height: 7rem;
     box-shadow: 3px 15px 20px rgba(0, 0, 0, 0.508);
     background: rgba(193, 196, 206, 0.00);
     overflow: hidden;
-    
+    background-color: #ecf77be8;
     
    
 }
@@ -413,7 +427,7 @@ animation-play-state: paused;
     align-items: center;
     position: relative;
     box-shadow: 5px 5px 9px rgb(0 0 0 / 41%);
-    background: rgba(255,255,255,0.05);
+    background: rgb(255 242 151 / 70%);
     margin-bottom: 15px;
 
     
@@ -704,7 +718,10 @@ margin-bottom: 12px;
     width: 40px;
 }
   
+
+
 .services span{
+
     font-family: 'Varela Round';
     font-size: 22px;
 }
