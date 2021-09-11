@@ -17,157 +17,202 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./All_css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
 
 </head>
-<script src="jquery"></script>
 
-<body>
-    <nav class="navbar-enable-in-mobile">
-        <!--from here-->
-        <div class="nav-mobile-logo">
-            <img src="Images/Psyborg-logo.jpg" alt="Psyborg-logo" class="nav-logo-img">
-        </div>
-        <div class="ham-container">
-            <div class="hamburger">
-                <div class="ham-content1 ham-content"></div>
-                <div class="ham-content2 ham-content"></div>
-                <div class="ham-content3 ham-content"></div>
+
+<body style="overflow: auto;">
+    <div class="full">
+        <nav class="navbar-enable-in-mobile">
+            <!--from here-->
+            <div class="nav-mobile-logo">
+                <img src="Images/Psyborg-logo.jpg" alt="Psyborg-logo" class="nav-logo-img">
+            </div>
+            <div class="ham-container">
+                <div class="hamburger">
+                    <div class="ham-content1 ham-content"></div>
+                    <div class="ham-content2 ham-content"></div>
+                    <div class="ham-content3 ham-content"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-page" style="opacity: 0;">
+            <div class="nav-menu" style="opacity: 0;">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                    <li><a onclick="reg()" class="nav-button-link">Contact a counsellor</a></li>
+                </ul>
             </div>
         </div>
-    </nav>
-    <div class="nav-page" style="opacity: 0;">
-        <div class="nav-menu" style="opacity: 0;">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="#contactus">Contact Us</a></li>
-                <li><a href="#index" class="nav-button-link">Contact a counsellor</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <nav class="nav-disable-in-mobile">
-        <div class="nav-logo">
-            <a href="#index"><img src="Images/Psyborg-logo.jpg" alt="Psyborg-logo" class="nav-logo-img"></a>
-        </div>
-        <div class="nav-links">
-            <ul>
-                <li><a href="index.html" title="Hey">Home</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="#contactus">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="nav-btn">
-            <a href="#index" class="nav-button-link">Contact a counsellor</a>
-        </div>
-    </nav>
+        <nav class="nav-disable-in-mobile">
+            <div class="nav-logo">
+                <a href="#index"><img src="Images/Psyborg-logo.jpg" alt="Psyborg-logo" class="nav-logo-img"></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html" title="Hey">Home</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-btn">
+                <a onclick="reg()" class="nav-button-link">Contact a counsellor</a>
+            </div>
+        </nav>
 
-    <section id="home-first">
-        <div id="home-outer-div">
-            <div id="intro" data-aos="zoom-in" data-aos-duration="1200">Psyborg</div>
-            <div id="sub-intro" data-aos="fade-up" data-aos-duration="3000"> A step towards better Mental Health</div>
-        </div>
-    </section>
-    <section id="home-second">
-        <div class="aligning">
-            <h1 class="home-h1" data-aos="fade-right" data-aos-duration="2000">Why are we concerned about this?</h1>
-            <div id="home-second-subhead">In today's busy lifestyle, people don't get proper time for recreation, nor do
-                they connect with their friends and loved ones. Such conditions of isolation and mental pressure, give
-                rise to various psychological conditions including stress and anxiety. Psychological ailments are often
-                not given much attention compared to others, and they end with the quick act of 'suicide'. </div>
-            <div id="home-second-mainarea">
-                <div class="home-second-content" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
-                    <img src="Images/home-dep-1.gif" alt="depression-gif" class="home-second-gifs">
-                    <span class="count-span">275 Million + </span>
-                    <p class="subhead-count">The number of people suffering from anxiety disorders worldwide</p><br>
-                    <p class="details-cases">
-                        <!-- According to WHO, almost 85% cases of these occur due to depression and similar psychological issues. If steps are not taken to improve the mental health conditions of the youth, the numbers can become even worse. -->
-                    </p>
+        <section id="home-first">
+            <div id="home-outer-div">
+                <div id="intro" data-aos="zoom-in" data-aos-duration="1200">Psyborg</div>
+                <div id="sub-intro" data-aos="fade-up" data-aos-duration="3000"> A step towards better Mental Health
                 </div>
-                <div class="home-second-content" data-aos="flip-right"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
-                    <img src="Images/home-dep-3.jpg" alt="depression-gif" class="home-second-gifs" id="dep-gif-3">
-                    <span class="count-span">7.1% </span>
-                    <p class="subhead-count">The percentage of adult population of America, who had at least one major
-                        depressive episode</p><br>
-                    <p class="details-cases">
-                        <!-- According to WHO, almost 85% cases of these occur due to depression and similar psychological issues. If steps are not taken to improve the mental health conditions of the youth, the numbers can become even worse.
+            </div>
+        </section>
+        <section id="home-second">
+            <div class="aligning">
+                <h1 class="home-h1" data-aos="fade-right" data-aos-duration="2000">Why are we concerned about this?</h1>
+                <div id="home-second-subhead">In today's busy lifestyle, people don't get proper time for recreation,
+                    nor do
+                    they connect with their friends and loved ones. Such conditions of isolation and mental pressure,
+                    give
+                    rise to various psychological conditions including stress and anxiety. Psychological ailments are
+                    often
+                    not given much attention compared to others, and they end with the quick act of 'suicide'. </div>
+                <div id="home-second-mainarea">
+                    <div class="home-second-content" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="Images/home-dep-1.gif" alt="depression-gif" class="home-second-gifs">
+                        <span class="count-span">275 Million + </span>
+                        <p class="subhead-count">The number of people suffering from anxiety disorders worldwide</p><br>
+                        <p class="details-cases">
+                            <!-- According to WHO, almost 85% cases of these occur due to depression and similar psychological issues. If steps are not taken to improve the mental health conditions of the youth, the numbers can become even worse. -->
+                        </p>
+                    </div>
+                    <div class="home-second-content" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="Images/home-dep-3.jpg" alt="depression-gif" class="home-second-gifs" id="dep-gif-3">
+                        <span class="count-span">7.1% </span>
+                        <p class="subhead-count">The percentage of adult population of America, who had at least one
+                            major
+                            depressive episode</p><br>
+                        <p class="details-cases">
+                            <!-- According to WHO, almost 85% cases of these occur due to depression and similar psychological issues. If steps are not taken to improve the mental health conditions of the youth, the numbers can become even worse.
                     </p> -->
+                    </div>
+                    <div class="home-second-content" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="Images/home-dep-2.gif" alt="depression-gif" class="home-second-gifs">
+                        <span class="count-span">80000 + </span>
+                        <p class="subhead-count">The number of suicides happening every year around the globe</p><br>
+                        <p class="details-cases">
+                            <!-- According to WHO, almost 85% cases of these occur due to depression and similar psychological issues. If steps are not taken to improve the mental health conditions of the youth, the numbers can become even worse. -->
+                        </p>
+                    </div>
+
                 </div>
-                <div class="home-second-content" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
-                    <img src="Images/home-dep-2.gif" alt="depression-gif" class="home-second-gifs">
-                    <span class="count-span">80000 + </span>
-                    <p class="subhead-count">The number of suicides happening every year around the globe</p><br>
-                    <p class="details-cases">
-                        <!-- According to WHO, almost 85% cases of these occur due to depression and similar psychological issues. If steps are not taken to improve the mental health conditions of the youth, the numbers can become even worse. -->
-                    </p>
+            </div>
+        </section>
+        <section id="home-fourth">
+            <div class="contact-form" id="contactus" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                data-aos-delay="300">
+                <div>Ask a Query...</div>
+                <form action="lol.php">
+                    <input type="text" placeholder="Your Name" id="name" class="common-input-contact">
+                    <input type="email" placeholder="Your Email" id="email" class="common-input-contact">
+                    <input type="text" placeholder="Your Phone Number" id="phone" class="common-input-contact">
+                    <input type="text" placeholder="Your Query" id="query" class="common-input-contact">
+                </form>
+                <button class="contact-submit-button">Submit</button>
+            </div>
+            <div class="final-info" data-aos="fade-down" data-aos-easing="ease-in-sine">
+                <div class="final-info-inside-div">
+                    <div class="site-sponsor">
+                        <p>Site sponsored by ISTEBITS<br></p>
+                        <button class="contact-submit-button" id="istebits-button"><a href="https://www.istebits.com/"
+                                target="_blank">Visit ISTEBITS</a></button>
+                    </div>
+                    <div class="social-handle">
+                        <p>Connect with our Social-media handles<br></p>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="Images/facebook-pic.png" alt="fb"
+                                class="social-icons"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="Images/instagram-pic.png"
+                                alt="insta" class="social-icons"></a>
+                        <a href="https://www.pinterest.com/" target="_blank"><img src="Images/pinterest-pic.png"
+                                alt="pin" class="social-icons"></a>
+                        <a href="https://www.twitter.com/" target="_blank"><img src="Images/twitter-pic.png"
+                                alt="twitter" class="social-icons"></a>
+                        <a href="https://www.youtube.com/" target="_blank"><img src="Images/youtube-pic.png" alt="utube"
+                                class="social-icons"></a>
+                    </div>
+                    <div class="partners">
+                        <p>Supported by<br></p>
+                        <a href="http://www.jaduniv.edu.in/" target="_blank"><img src="Images/logo-ju.png" alt="ju"
+                                class="support-icons"></a>
+                        <a href="https://code.visualstudio.com/" target="_blank"><img src="Images/logo-vsc.png"
+                                alt="vsc" class="support-icons"></a>
+                        <a href="http://www.google.com/intl/en_in/chrome/" target="_blank"><img
+                                src="Images/logo-chrome.png" alt="chrome" class="support-icons"></a>
+                    </div>
                 </div>
+            </div>
+        </section>
+
+
+
+        <div class="loader-wrapper">
+            <div class="loader-wrapper">
+
+                <div class="loader">Loading...</div>
 
             </div>
         </div>
-    </section>
-    <section id="home-fourth">
-        <div class="contact-form" id="contactus" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="300">
-            <div>Ask a Query...</div>
-            <form action="lol.php">
-                <input type="text" placeholder="Your Name" id="name" class="common-input-contact">
-                <input type="email" placeholder="Your Email" id="email" class="common-input-contact">
-                <input type="text" placeholder="Your Phone Number" id="phone" class="common-input-contact">
-                <input type="text" placeholder="Your Query" id="query" class="common-input-contact">
-            </form>
-            <button class="contact-submit-button">Submit</button>
-        </div>
-        <div class="final-info" data-aos="fade-down" data-aos-easing="ease-in-sine">
-            <div class="final-info-inside-div">
-                <div class="site-sponsor">
-                    <p>Site sponsored by ISTEBITS<br></p>
-                    <button class="contact-submit-button" id="istebits-button"><a href="https://www.istebits.com/"
-                            target="_blank">Visit ISTEBITS</a></button>
-                </div>
-                <div class="social-handle">
-                    <p>Connect with our Social-media handles<br></p>
-                    <a href="https://www.facebook.com/" target="_blank"><img src="Images/facebook-pic.png" alt="fb"
-                            class="social-icons"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="Images/instagram-pic.png" alt="insta"
-                            class="social-icons"></a>
-                    <a href="https://www.pinterest.com/" target="_blank"><img src="Images/pinterest-pic.png" alt="pin"
-                            class="social-icons"></a>
-                    <a href="https://www.twitter.com/" target="_blank"><img src="Images/twitter-pic.png" alt="twitter"
-                            class="social-icons"></a>
-                    <a href="https://www.youtube.com/" target="_blank"><img src="Images/youtube-pic.png" alt="utube"
-                            class="social-icons"></a>
-                </div>
-                <div class="partners">
-                    <p>Supported by<br></p>
-                    <a href="http://www.jaduniv.edu.in/" target="_blank"><img src="Images/logo-ju.png" alt="ju"
-                            class="support-icons"></a>
-                    <a href="https://code.visualstudio.com/" target="_blank"><img src="Images/logo-vsc.png" alt="vsc"
-                            class="support-icons"></a>
-                    <a href="http://www.google.com/intl/en_in/chrome/" target="_blank"><img src="Images/logo-chrome.png"
-                            alt="chrome" class="support-icons"></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="loader-wrapper">
-        <div class="loading-page">
-            <div class="loading-page-contents"></div>
-            <div class="loading-page-contents"></div>
-            <div class="loading-page-contents"></div>
-          </div>
     </div>
-    
+
+    <form class="registration-form">
+        <div class="formBody">
+            <div><img src="./Images/user.png" alt=""><input type="text" placeholder="Name"></div>
+
+            <div><img src="./Images/message.png" alt=""><input type="text" placeholder="Email"></div>
+
+            <div><img src="./Images/call.png" alt=""><input type="text" placeholder="Phone Number"></div>
+
+            <div id="radio"><img src="./Images/gender.png" alt=""><input type="radio" name="sex" id="">Male <input
+                    type="radio" name="sex" id="">Female
+                <input type="radio" name="sex" id="">Other
+            </div>
+
+            <div><img src="./Images/address.png" alt=""><input type="text" placeholder="Adress"></div>
+
+            <div><input type="number" id="pin" placeholder="Pin-Code"></div>
+
+            <div class="text" id="Textarea"><img src="./Images/write.png" alt=""><Textarea id="Textarea"
+                    placeholder="Write to us" cols="30"></Textarea>
+            </div>
+
+            <div id="terms"><span>I agree to Terms and Conditions</span>
+                <input type="checkbox" name="" id="checkme"
+                    onchange="document.getElementById('send').disabled = !this.checked">
+            </div>
+
+            <div id="btn"><Button type="submit" onclick="clickBtn()" disabled id="send">Submit</Button>
+                <Button onclick="close()" id="close">Close</Button>
+            </div>
+        </div>
+
+
+    </form>
+
 </body>
 
 <script src="Js/navbar.js"></script>
 <script src="Js/loading.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script> AOS.init(); </script>
+<script> AOS.init();</script>
+<script src="./Js/app.js"></script>
 
 </html>

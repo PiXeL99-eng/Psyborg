@@ -35,6 +35,7 @@ html{
 }
 .nav-btn a:hover{
     box-shadow: 2px 2px 5px -1px #000000;
+    cursor: pointer;
 }
 
 
@@ -123,7 +124,8 @@ html{
     text-decoration: none;
     color: #5a77ff;
     font-size: 28px;
-    font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     background: transparent;
     padding: 0px;
     font-weight: normal;
@@ -169,10 +171,12 @@ height: 7rem;
 }
 .nav-disable-in-mobile a{
     text-decoration: none;
-    font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Raleway', sans-serif;
 }
 .nav-links a:hover{
     color: black;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 750px){            /*MEDIA QUERY*/
@@ -312,7 +316,8 @@ height: 7rem;
     font-weight: bold;
     padding-top: 70px;
     padding-bottom: 24px;
-    font-family: 'Architects Daughter', cursive;
+    /* font-family: 'Architects Daughter', cursive; */
+    font-family: 'Source Code Pro', monospace;
 }
 .count-span{
     font-size: 2.3vw;
@@ -456,6 +461,7 @@ height: 7rem;
 }
 .contact-submit-button:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 .contact-submit-button a{
