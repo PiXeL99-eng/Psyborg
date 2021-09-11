@@ -3,6 +3,9 @@ const body = document.querySelector("body");
 
 setTimeout(() => {
     loader_wrapper.style.display = 'none';
-    body.style.overflow = 'auto';
+    
+    // loader_wrapper.style.z-index = 10;
 
-}, 3000);
+    // body.style.overflow = 'auto';
+
+}, 1000);

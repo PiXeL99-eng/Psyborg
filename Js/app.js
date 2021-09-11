@@ -1,5 +1,7 @@
-
-AOS.init();
+setTimeout(() => {
+    AOS.init();
+    
+}, 1100);
 
 $('.owl-carousel').owlCarousel({
     loop: true,
@@ -28,6 +30,7 @@ function clickBtn() {
 
     document.getElementById("send").classList.add("click");
     alert("Your Registration Is Done");
+  
 }
 
 function reg(){
@@ -36,11 +39,15 @@ function reg(){
     document.querySelector(".full").style.opacity = 0;
     document.querySelector(".formBody").style.opacity=1;
     document.querySelector(".formBody").style.top=0;
+    document.getElementsByTagName('html')[0].style.overflow = "hidden";
 }
 
 function close() {
     document.querySelector(".registration-form").style.visibility = "hidden" ; 
     document.querySelector(".full").style.opacity = 1;
+
+    
+    // console.log("cvjhbk");
 }
 
 
