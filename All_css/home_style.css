@@ -305,19 +305,20 @@ height: 7rem;
 }
 
 #home-second-subhead{
-    font-size: 21px;
+    font-size: 24px;
     padding-top: 10px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Comfortaa', cursive; */
     font-weight: bold;
 }
 
 .home-h1{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
     padding-top: 70px;
     padding-bottom: 24px;
-    /* font-family: 'Architects Daughter', cursive; */
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Source Code Pro', monospace; */
 }
 .count-span{
     font-size: 2.3vw;
