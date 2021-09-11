@@ -30,6 +30,7 @@ function clickBtn() {
 
     document.getElementById("send").classList.add("click");
     alert("Your Registration Is Done");
+    window.location.href="./index.html"
   
 }
 
