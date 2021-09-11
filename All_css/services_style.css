@@ -8,8 +8,9 @@
 body,html{
     width: 100vw;
     overflow-x: hidden;
+    overflow-y:scroll ;
     
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 
 
