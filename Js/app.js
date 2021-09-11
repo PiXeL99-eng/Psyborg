@@ -30,6 +30,7 @@ function clickBtn() {
 
     document.getElementById("send").classList.add("click");
     alert("Your Registration Is Done");
+    window.location.href="./index.html"
   
 }
 
@@ -45,6 +46,7 @@ function reg(){
 function close() {
     document.querySelector(".registration-form").style.visibility = "hidden" ; 
     document.querySelector(".full").style.opacity = 1;
+    
 
     
     // console.log("cvjhbk");
