@@ -530,7 +530,7 @@ margin-bottom: 12px;
 .ser_left h1{
     margin-bottom: 10px;
     font-family: 'Comfortaa', calibiri;
-    font-size: 46px;
+    font-size: 49px;
 }
 .ser_right{
     /* border: 1px solid red; */
@@ -705,8 +705,8 @@ margin-bottom: 12px;
 }
   
 .services span{
-    font-family: calibiri;
-    font-size: larger;
+    font-family: 'Varela Round';
+    font-size: 22px;
 }
 
 @media screen and (max-width:600px) {
