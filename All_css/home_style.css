@@ -317,6 +317,14 @@ height: 7rem;
     font-weight: bold;
     padding-top: 70px;
     padding-bottom: 24px;
+
+    font-size: 55px;
+    color: #45b9a9;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 24px;
+    /* font-family: 'Architects Daughter', cursive; */
+
     font-family: 'Comfortaa', cursive;
     /* font-family: 'Source Code Pro', monospace; */
 }
