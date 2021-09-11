@@ -45,6 +45,7 @@ function reg(){
 function close() {
     document.querySelector(".registration-form").style.visibility = "hidden" ; 
     document.querySelector(".full").style.opacity = 1;
+    
 
     
     // console.log("cvjhbk");
